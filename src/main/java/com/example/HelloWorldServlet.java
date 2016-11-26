@@ -13,6 +13,6 @@ public class HelloWorldServlet extends HttpServlet
   public void doGet(HttpServletRequest request, HttpServletResponse response) 
       throws IOException
   {
-      response.getOutputStream().print("aguante la t");
+      response.getOutputStream().print("aguante la t<html><head></head><body><img src="https://pbs.twimg.com/profile_images/776152278495551488/bF4518ht.jpg"> </body></html>");
   }
 }
